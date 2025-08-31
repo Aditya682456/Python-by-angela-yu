@@ -1,0 +1,11 @@
+fruits=["cherry","apple","pineapple","peach","banana"]
+fruits.append("guava")
+print(fruits)
+fruits[2]="mango"
+print(fruits)
+fruits[-2]="pear"
+print(fruits)
+fruits.extend(["coconut","dragonfruit"])
+print(fruits)
+fruits.insert(1,"grapes")
+print(fruits)
